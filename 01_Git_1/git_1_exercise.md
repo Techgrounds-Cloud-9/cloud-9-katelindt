@@ -1,9 +1,7 @@
 # Git and GitHub
 
-- Create a GitHub repo.
-- Invite and hand out permissions to teammates.
-- Push code to repo.
-- Pull and clone a repo from one of your peers.
+Basic concepts of version control system
+
 
 ## Key terminology
 
@@ -16,15 +14,20 @@
 - Commit
 - Push / Pull
 - Merge
-- Fork.
+- Fork
 
 ## Exercise
+- Create a GitHub repo.
+- Invite and hand out permissions to teammates.
+- Push code to repo.
+- Pull and clone a repo from one of your peers.
 
-****
 
 ### Sources
 
 [https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository)
+
+****
 
 ### Overcome challenges
 
