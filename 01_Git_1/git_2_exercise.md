@@ -37,8 +37,4 @@ Text formatting methods in Markdown
 ### Results
 I created a new markdown file and added it to my repository.
 
-![screenshot](/00_includes/git_02_vscode_screenshot.png)
-
-****
-
 ![screenshot](/00_includes/git_02_screenshot.png)
