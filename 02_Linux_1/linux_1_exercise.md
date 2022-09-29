@@ -5,10 +5,10 @@ Connecting to Linux VM
 
 ## Key terminology
 
-- CLI (command line)
-- GUI (grafical user interface)
-- VM
-- SSH
+- CLI - command line
+- GUI - grafical user interface
+- VM - virtual Machine
+- SSH - Secure Shell is a network communication protocol that enables two computers to communicate and share data.
 
 ## Exercise
 - Make an SSH-connection to your machine. SSH requires the key file to have specific permissions, so you might need to change those.
