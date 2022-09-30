@@ -1,6 +1,6 @@
 # Bash scripting
 
-Input/output and redirection
+
 
 
 ## Key terminology

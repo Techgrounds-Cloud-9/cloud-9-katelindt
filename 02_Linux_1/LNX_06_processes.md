@@ -2,7 +2,7 @@
 
 ## Key terminology
 
-- Process - a task that's being processed by a machine
+- Process - a task that your machine is currently working on.
 - Service - a process that runs in the background and accepts requests from different programs.
 - Daemon - a process that runs in the background to maintain the processes that run in the foreground. It needs no interference from the user.
 - Telnet - a protocol that allows connection between a system and another remote system. The data being transfered through Telnet is not encrypted, and therefore it's an insecure connection.
@@ -27,6 +27,11 @@
 
 
 ### Sources
+[https://en.wikipedia.org/wiki/Telnet](https://en.wikipedia.org/wiki/Telnet)
+
+[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-tcp_wrappers_and_xinetd-xinetd](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-tcp_wrappers_and_xinetd-xinetd)
+
+[https://linuxways.net/ubuntu/how-to-install-telnet-server-and-client-on-ubuntu/](https://linuxways.net/ubuntu/how-to-install-telnet-server-and-client-on-ubuntu/)
 
 [https://stackoverflow.com/questions/22372960/is-this-explanation-about-vss-rss-pss-uss-accurate](https://stackoverflow.com/questions/22372960/is-this-explanation-about-vss-rss-pss-uss-accurate)
 
