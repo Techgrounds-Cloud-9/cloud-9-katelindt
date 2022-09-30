@@ -1,5 +1,5 @@
 # File permissions
-
+Setting and changing the permissions of the file.
 
 ## Key terminology
 

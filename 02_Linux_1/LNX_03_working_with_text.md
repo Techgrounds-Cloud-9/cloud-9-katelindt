@@ -33,9 +33,6 @@ Input/output and redirection
 
 ****
 
-### Overcome challenges
-
-
 
 
 ### Results
