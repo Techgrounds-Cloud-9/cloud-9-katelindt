@@ -5,10 +5,8 @@ Input/output and redirection
 
 ## Key terminology
 
-- Input
-- Output
-- Redirection
-- Pipe
+- Input/Output (I/O) redirection in Linux refers to the ability of the Linux operating system that allows us to change the standard input ( stdin ) and standard output ( stdout ) when executing a command on the terminal. By default, the standard input device is your keyboard and the standard output device is your screen.
+- Pipe |  is used to combine two or more commands
 
 - Commands: 
     
@@ -26,7 +24,11 @@ Input/output and redirection
 
 ### Sources
 
+[https://www.educative.io/answers/how-to-do-input-output-redirection-in-linux](https://www.educative.io/answers/how-to-do-input-output-redirection-in-linux)
 
+[https://opensource.com/article/18/8/introduction-pipes-linux](https://opensource.com/article/18/8/introduction-pipes-linux)
+
+[https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
 
 
 ****

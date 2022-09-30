@@ -40,7 +40,7 @@ Creating and editing files
 
 ### Overcome challenges
 
-Sometimes I made mistakes in writing commands, but of course I quickly realized that I had mistyped
+Sometimes I made mistakes by writing commands, but of course I quickly realized that I had mistyped
 
 ### Results
 

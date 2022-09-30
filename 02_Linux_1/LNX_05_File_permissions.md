@@ -3,16 +3,15 @@
 
 ## Key terminology
 
-- Input
-- Output
-- Redirection
-- Pipe
-
 - Commands: 
     
-    - echo - display line of text/string that are passed as an argument. The echo can be used with a redirect operator to output to a file and not standard output.
-    - cat - one of its most common usages is to print the content of a file onto the standard output stream. Other than that, the cat command also allows us to write some texts into a file.
-    - grep - command-line tool used to search for a string of characters in a specified file. 
+    - chmod -command, which is used to manage file system access permissions on Unix and Unix-like systems.
+
+    - chown (change owner) is used to  to change the file Owner or group. 
+
+    - chgrp (change group) is used to change the group ownership of a file or directory.
+
+
 
 
 ## Exercise
@@ -24,19 +23,20 @@
 - Change the group ownership of the file to a different group.
 
 
-
-
 ### Sources
 
+[https://linuxize.com/post/chmod-command-in-linux/](https://linuxize.com/post/chmod-command-in-linux/)
 
+[https://www.geeksforgeeks.org/chown-command-in-linux-with-examples/](https://www.geeksforgeeks.org/chown-command-in-linux-with-examples/)
+
+[https://www.geeksforgeeks.org/chgrp-command-in-linux-with-examples/](https://www.geeksforgeeks.org/chgrp-command-in-linux-with-examples/)
 
 
 ****
 
-### Overcome challenges
+### Overcome challenges 
 
-
-
+The syntax for permissions
 
 ### Results
 
