@@ -1,6 +1,6 @@
 # Cron jobs
 
-Input/output and redirection
+
 
 
 ## Key terminology

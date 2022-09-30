@@ -1,20 +1,15 @@
 # Bash scripting
 
-
-
-
 ## Key terminology
 
-- Input
-- Output
-- Redirection
-- Pipe
+- Script
+- Bash shell
+- Variable
+- Path - PATH is an environmental variable in Linux and other Unix-like operating systems that tells the shell which directories to search for executable files (i.e., ready-to-run programs) in response to commands issued by a user.
 
 - Commands: 
     
-    - echo - display line of text/string that are passed as an argument. The echo can be used with a redirect operator to output to a file and not standard output.
-    - cat - one of its most common usages is to print the content of a file onto the standard output stream. Other than that, the cat command also allows us to write some texts into a file.
-    - grep - command-line tool used to search for a string of characters in a specified file. 
+
 
 ## Exercise 1:
 
@@ -37,6 +32,9 @@
 
 ### Sources
 
+[http://www.linfo.org/path_env_var.html](http://www.linfo.org/path_env_var.html)
+
+[https://askubuntu.com/questions/551990/what-does-path-mean](https://askubuntu.com/questions/551990/what-does-path-mean)
 
 
 
@@ -44,13 +42,14 @@
 
 ### Overcome challenges
 
-
+Find out that on Ubuntu package is called apache2 (not httpd)
 
 
 ### Results
-
+Created a directory called 'scripts'
 ![screenshot](/00_includes/linux_07_1_1_screenshot.png)
 
+Added the scripts directory to the PATH variable
 ![screenshot](/00_includes/linux_07_1_2_screenshot.png)
 
 ![screenshot](/00_includes/linux_07_1_3_screenshot.png)

@@ -12,8 +12,6 @@ Setting and changing the permissions of the file.
     - chgrp (change group) is used to change the group ownership of a file or directory.
 
 
-
-
 ## Exercise
 - Create a text file.
 - Make a long listing to view the file’s permissions. Who is the file’s owner and group? What kind of permissions does the file have?
