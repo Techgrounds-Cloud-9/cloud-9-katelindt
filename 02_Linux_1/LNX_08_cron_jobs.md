@@ -1,21 +1,17 @@
 # Cron jobs
 
-
+ Doing the same task over and over again can be quite a chore. Scheduling cron jobs let users automate tasks on a virtual private server or any Unix-like operating system. This saves precious time and allows users to focus on other essential tasks.
 
 
 ## Key terminology
 
-- Input
-- Output
-- Redirection
-- Pipe
+ - Cron - daemon for repeating tasks at a later time.
+
+ - Cron Job -  a task scheduled by script or command to run automatically at certain intervals.
+
+ - Crontab - a file which contains the schedule of cron entries to be run and at specified times. 
 
 - Commands: 
-    
-    - echo - display line of text/string that are passed as an argument. The echo can be used with a redirect operator to output to a file and not standard output.
-    - cat - one of its most common usages is to print the content of a file onto the standard output stream. Other than that, the cat command also allows us to write some texts into a file.
-    - grep - command-line tool used to search for a string of characters in a specified file. 
-
 
 ## Exercise
 
@@ -26,8 +22,14 @@
 
 
 ### Sources
- [https://crontab.guru/#*_*_*_*_*](https://crontab.guru/#*_*_*_*_*)
 
+[https://ostechnix.com/a-beginners-guide-to-cron-jobs/](https://ostechnix.com/a-beginners-guide-to-cron-jobs/)
+
+[https://medium.com/blockchain-research-lab-akgec/introduction-to-cron-job-ac04e72a4b67](https://medium.com/blockchain-research-lab-akgec/introduction-to-cron-job-ac04e72a4b67)
+
+[https://crontab.guru/#*_*_*_*_*](https://crontab.guru/#*_*_*_*_*)
+
+[https://opensource.com/article/18/7/how-check-free-disk-space-linux](https://opensource.com/article/18/7/how-check-free-disk-space-linux)
 
 
 
@@ -39,14 +41,19 @@
 
 
 ### Results
+Created a Bash script that writes the current date and time to a file in my home directory.
 
 ![screenshot](/00_includes/linux_08_1_screenshot.png)
 
 ![screenshot](/00_includes/linux_08_2_screenshot.png)
 
+Registered the script in my crontab so that it runs every minute.
+
 ![screenshot](/00_includes/linux_08_3_screenshot.png)
 
 ![screenshot](/00_includes/linux_08_4_screenshot.png)
+
+Created a script that writes available disk space to a log file in ‘/var/logs’. Used a cron job so that it runs weekly.
 
 ![screenshot](/00_includes/linux_08_5_screenshot.png)
 
