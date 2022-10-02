@@ -54,14 +54,17 @@ Added the scripts directory to the PATH variable
 
 ![screenshot](/00_includes/linux_07_1_3_screenshot.png)
 
+Created a script that appends a line of text to a text file whenever it is executed.
 ![screenshot](/00_includes/linux_07_1_4_screenshot.png)
 
 ![screenshot](/00_includes/linux_07_1_5_screenshot.png)
 
+Created a script that installs the apache2 package, activates apache2, and enables apache2.
 ![screenshot](/00_includes/linux_07_1_6_screenshot.png)
 
 ![screenshot](/00_includes/linux_07_1_7_screenshot.png)
 
+Created a script that generates a random number between 1 and 10, stores it in a variable, and then appends the number to a text file. Then created a script that makes the same but appends the number to a text file only if the number is bigger than 5. If the number is 5 or smaller, it append a line of text to that same text file instead.
 ![screenshot](/00_includes/linux_07_2_and_3_screenshot.png)
 
 ![screenshot](/00_includes/linux_07_2_screenshot.png)
