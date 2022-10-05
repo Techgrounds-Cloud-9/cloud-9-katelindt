@@ -56,7 +56,7 @@ The following layers are only "correctly" implemented in the RFC. In practice, t
 TCP/IP model is defined with 5 layers as application layer, transport layer, network layer, data link layer and physical layer.
 
 While
-the four layer TCP/IP model has the layers Application Layer, Transport Layer, Internet Layer and Network Access Layer.
+the four layer TCP/IP model has the layers Application Layer, Transport Layer, Internet Layer and Network Access Layer (link layer).
 
 Internet layer in the above 4 layer model is the same thing as the network layer defined in the 5 layer model. Whereas
-Network Access layer in the 4 layer model is the data link layer and the physical layer of the 5 layer model combined into a single layer in the 4 layer model.
+Network Access layer (link layer) in the 4 layer model is the data link layer and the physical layer of the 5 layer model combined into a single layer in the 4 layer model.
