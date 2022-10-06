@@ -31,7 +31,7 @@ To find answer:
 Does TCP/IP model has 4 layers or 5 layers? (Answer is in the end of the results)
 
 ### Results
-![image](/00_includes/networking_OSI_1.jpeg)
+![image](/00_includes/networking_01_OSI_1.jpeg)
 
 the OSI layers:
 1. Physical layer - is responsible for the physical connection between devices. Protocol Data Unit (PDU)- a bit. In addition to ones and zeros, the physical layer knows nothing. Wires, patch panels, network hubs, network adapters work at this layer. The network adapter itself receives a sequence of bits and passes it on.
@@ -51,7 +51,7 @@ The following layers are only "correctly" implemented in the RFC. In practice, t
 7. Application layer. PDU - data. The most numerous and varied layer. It runs all high-level protocols. Such as POP, SMTP, RDP, HTTP, etc. The protocols here do not have to think about routing or guaranteeing the delivery of information - these are handled by lower layers. At level 7, it is only necessary to implement specific actions, for example, receiving an html code or an email message to a specific recipient.
 
 ****
-![image](/00_includes/networking_OSI_2.png)
+![image](/00_includes/networking_01_OSI_2.png)
 
 TCP/IP model is defined with 5 layers as application layer, transport layer, network layer, data link layer and physical layer.
 
