@@ -51,6 +51,7 @@ Unlike repeater hubs, which broadcast the same data out of each port and let the
 
 
 ### Results
+
 My router's client list:
 
 ![image](/00_includes/networking_02_1_screenshot.png)

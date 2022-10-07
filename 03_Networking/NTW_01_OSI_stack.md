@@ -6,6 +6,8 @@
 ## Key terminology
 - The Open Systems Interconnection model (OSI model) - a conceptual model created by the International Organization for Standardization which enables diverse communication systems to communicate using standard protocols. In the OSI reference model, the communications between a computing system are split into seven different abstraction layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
 
+- The TCP/IP model - a functional model designed to solve specific communication problems, and which is based on specific, standard protocols. 
+
 ## Exercise
  - Study:
     - The OSI model and its uses.
