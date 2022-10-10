@@ -32,6 +32,8 @@ Study
 
 [https://rublon.com/blog/what-are-the-three-authentication-factors/#:~:text=The%20three%20authentication%20factors%20are,something%20you%20are%2C%20e.g.%2C%20fingerprint](https://rublon.com/blog/what-are-the-three-authentication-factors/#:~:text=The%20three%20authentication%20factors%20are,something%20you%20are%2C%20e.g.%2C%20fingerprint)
 
+[https://www.copado.com/devops-hub/blog/what-are-the-benefits-of-principle-of-least-privilege-polp-for-my-organization](https://www.copado.com/devops-hub/blog/what-are-the-benefits-of-principle-of-least-privilege-polp-for-my-organization)
+
 ****
 
 ### Overcome challenges
