@@ -64,7 +64,7 @@ You are not allowed to use any private messages or other communication channels 
     - The Playfair cipher or Playfair square or Wheatstone–Playfair cipher is a manual symmetric encryption technique and was the first literal digram substitution cipher. The Playfair cipher uses a 5 by 5 table containing a key word or phrase. Memorization of the keyword and 4 simple rules was all that was required to create the 5 by 5 table and use the cipher.
     - The Enigma machine is a cipher device developed and used in the early- to mid-20th century to protect commercial, diplomatic, and military communication.The Enigma machine produced encoded messages. Electrical signals from a typewriter-like keyboard were routed through a series of rotating wheels as well as a plugboard that scrambled the output but did so in a way that was decipherable with the right settings. 
 
-- Ciphers that are being used today
+- Ciphers that are being used today:
 
 To date, RSA (Rivest, Shamir, Adleman) and AES (Advanced Encryption Standard) are considered safe, but as computing power increases, those will also fall one day and new ciphers will have to be developed to continue the use of cryptography on the web.
 
