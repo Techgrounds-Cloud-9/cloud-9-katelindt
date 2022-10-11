@@ -38,10 +38,18 @@ You are not allowed to use any private messages or other communication channels 
 
 
 ### Sources
+[https://en.wikipedia.org/wiki/History_of_cryptography](https://en.wikipedia.org/wiki/History_of_cryptography)
+
+[https://www.britannica.com/topic/Enigma-German-code-device](https://www.britannica.com/topic/Enigma-German-code-device)
+
+[https://www.comparitech.com/blog/information-security/famous-codes-and-ciphers-through-history-and-their-role-in-modern-encryption/](https://www.comparitech.com/blog/information-security/famous-codes-and-ciphers-through-history-and-their-role-in-modern-encryption/)
+
+[https://www.arcserve.com/blog/5-common-encryption-algorithms-and-unbreakables-future](https://www.arcserve.com/blog/5-common-encryption-algorithms-and-unbreakables-future)
 
 [https://www.devglan.com/online-tools/aes-encryption-decryption](https://www.devglan.com/online-tools/aes-encryption-decryption)
 
 [https://www.devglan.com/online-tools/rsa-encryption-decryption](https://www.devglan.com/online-tools/rsa-encryption-decryption)
+
 
 ****
 
@@ -49,15 +57,34 @@ You are not allowed to use any private messages or other communication channels 
 
 
 ### Results
-- Find two more historic ciphers besides the Caesar cipher.
 
+- Examples of historic ciphers besides the Caesar cipher:
+    - Vigenère Cipher.
+    A Vigenère cipher uses a table consisting of different Caesar shifts in sequence and a key to encode a message across several rows of the table. By using different Caesar shifts for different characters in the message, the Vigenère cipher makes decoding the ciphertext using frequency analysis much more difficult.
+    - The Playfair cipher or Playfair square or Wheatstone–Playfair cipher is a manual symmetric encryption technique and was the first literal digram substitution cipher. The Playfair cipher uses a 5 by 5 table containing a key word or phrase. Memorization of the keyword and 4 simple rules was all that was required to create the 5 by 5 table and use the cipher.
+    - The Enigma machine is a cipher device developed and used in the early- to mid-20th century to protect commercial, diplomatic, and military communication.The Enigma machine produced encoded messages. Electrical signals from a typewriter-like keyboard were routed through a series of rotating wheels as well as a plugboard that scrambled the output but did so in a way that was decipherable with the right settings. 
+
+- Ciphers that are being used today
+
+To date, RSA (Rivest, Shamir, Adleman) and AES (Advanced Encryption Standard) are considered safe, but as computing power increases, those will also fall one day and new ciphers will have to be developed to continue the use of cryptography on the web.
+
+- Sending a symmetrically encrypted messages to peer.
+
+First I generated a RCA key pair and sent the public key to the public chat. My peer sent a symmetrically encrypted message (AES) and an encrypted secret key to the public chat so that I could decrypt it.
 
 ![image](/00_includes/sec_04_1_screenshot.png)
 
-
 ![image](/00_includes/sec_04_2_screenshot.png)
 
+I decrypted the secret key.
 
 ![image](/00_includes/sec_04_3_screenshot.png)
 
+Using this key I decrypted the message.
 ![image](/00_includes/sec_04_4_screenshot.png)
+
+Then we repeated our steps but it was my turn to encrypt the key and the message for my peer.
+
+![image](/00_includes/sec_04_5_screenshot.png)
+
+![image](/00_includes/sec_04_6_screenshot.png)
