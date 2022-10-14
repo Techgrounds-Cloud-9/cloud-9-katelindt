@@ -1,4 +1,4 @@
-# [Group] Retro of Week [N]
+# [United] Retro of Week [2 and 3]
 Scrum master: Give everybody 10 minutes to answer the questions stated below. Then allow them to write them down.
 
 Everybody: Use 10 minutes to answer the given questions. Write the answer down.
