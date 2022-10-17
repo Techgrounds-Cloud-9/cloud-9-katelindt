@@ -48,5 +48,9 @@ Comments starts with a #, and Python will ignore them
 
 
 ### Results
+- Exercise 1:
+
 ![image](/00_includes/PRG_03_1_screenshot.png)
 
+- Exercise 2:
+![image](/00_includes/PRG_03_2_screenshot.png)
