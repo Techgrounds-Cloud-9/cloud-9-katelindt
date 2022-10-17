@@ -1,18 +1,36 @@
-# Setting up
-Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+# Conditions
 
-Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal.
+Python supports the usual logical conditions from mathematics:
+
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+These conditions can be used in several ways, most commonly in "if statements" and loops.
+
+An "if statement" is written by using the if keyword.
+
 ## Key terminology
-
+- Elif - the elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+- Else
+The else keyword catches anything which isn't caught by the preceding conditions.
 
 ## Exercise
-- Install the latest version of Python
-- Install VS Code
-- Install the Python plug-in in VS Code.
-- Write the following Python code. The output in the terminal should be the text “Hello world!”
+
+- Exercise 1:
+    - Create a new script.
+    - Use the input() function to ask the user of your script for their name. If the name they input is your name, print a personalized welcome message. If not, print a different personalized message.
+
+- Exercise 2:
+    - Create a new script.
+    - Ask the user of your script for a number. Give them a response based on whether the number is higher than, lower than, or equal to 100.
+    - Make the game repeat until the user inputs 100.
 
 ### Sources
-[https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
+[https://www.w3schools.com/python/python_operators.asp](https://www.w3schools.com/python/python_operators.asp)
+[https://www.w3schools.com/python/python_conditions.asp](https://www.w3schools.com/python/python_conditions.asp)
 
 ****
 
@@ -20,5 +38,10 @@ Python is meant to be an easily readable language. Its formatting is visually un
 
 
 ### Results
-![image](/00_includes/PRG_01_screenshot.png)
+- Exercise 1:
 
+![image](/00_includes/PRG_05_1_screenshot.png)
+
+- Exercise 2:
+
+![image](/00_includes/PRG_05_2_screenshot.png)
