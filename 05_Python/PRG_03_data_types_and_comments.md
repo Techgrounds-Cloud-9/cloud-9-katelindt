@@ -40,6 +40,7 @@ Comments starts with a #, and Python will ignore them
 ### Sources
 
 [https://www.w3schools.com/python/python_comments.asp](https://www.w3schools.com/python/python_comments.asp)
+
 [https://www.w3schools.com/python/python_datatypes.asp](https://www.w3schools.com/python/python_datatypes.asp)
 
 ****

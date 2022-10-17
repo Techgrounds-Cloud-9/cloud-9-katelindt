@@ -14,8 +14,7 @@ An "if statement" is written by using the if keyword.
 
 ## Key terminology
 - Elif - the elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
-- Else
-The else keyword catches anything which isn't caught by the preceding conditions.
+- Else - the else keyword catches anything which isn't caught by the preceding conditions.
 
 ## Exercise
 
@@ -30,6 +29,7 @@ The else keyword catches anything which isn't caught by the preceding conditions
 
 ### Sources
 [https://www.w3schools.com/python/python_operators.asp](https://www.w3schools.com/python/python_operators.asp)
+
 [https://www.w3schools.com/python/python_conditions.asp](https://www.w3schools.com/python/python_conditions.asp)
 
 ****
