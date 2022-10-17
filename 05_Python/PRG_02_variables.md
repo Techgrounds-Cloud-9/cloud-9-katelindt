@@ -40,12 +40,12 @@ Variables are containers for storing data values.
 ### Results
 - Exercise 1:
 
-![image](/00_includes/PRG_02_01_screenshot.png)
+![image](/00_includes/PRG_02_1_screenshot.png)
 
 - Exercise 2:
 
-![image](/00_includes/PRG_02_02_screenshot.png)
+![image](/00_includes/PRG_02_2_screenshot.png)
 
 - Exercise 3:
 
-![image](/00_includes/PRG_02_03_screenshot.png)
+![image](/00_includes/PRG_02_3_screenshot.png)
