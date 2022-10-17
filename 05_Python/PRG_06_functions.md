@@ -1,18 +1,32 @@
-# Setting up
-Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+# Functions
+A function is a block of code which only runs when it is called.
 
-Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal.
+You can pass data, known as parameters, into a function.
+
+A function can return data as a result.
+
 ## Key terminology
+
+- In Python a function is defined using the def keyword
+
+- To call a function, use the function name followed by parenthesis
+
 
 
 ## Exercise
-- Install the latest version of Python
-- Install VS Code
-- Install the Python plug-in in VS Code.
-- Write the following Python code. The output in the terminal should be the text “Hello world!”
+- Exercise 1:
+    - Create a new script.
+    - Import the random package.
+    - Print 5 random integers with a value between 0 and 100.
+
+- Exercise 2:
+    - Create a new script.
+    - Write a custom function myfunction() that prints “Hello, world!” to the terminal. Call myfunction.
+    - Rewrite your function so that it takes a string as an argument. Then, it should print “Hello, <string>!”.
+
 
 ### Sources
-[https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
+[https://www.w3schools.com/python/python_functions.asp](https://www.w3schools.com/python/python_functions.asp)
 
 ****
 
@@ -20,5 +34,8 @@ Python is meant to be an easily readable language. Its formatting is visually un
 
 
 ### Results
-![image](/00_includes/PRG_01_screenshot.png)
+- Exercise 1:
+![image](/00_includes/PRG_06_1_screenshot.png)
 
+- Exercise 2:
+![image](/00_includes/PRG_06_2_screenshot.png)
