@@ -1,18 +1,31 @@
-# Setting up
-Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+# Key-value pairs
 
-Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal.
+Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+
 ## Key terminology
 
 
 ## Exercise
-- Install the latest version of Python
-- Install VS Code
-- Install the Python plug-in in VS Code.
-- Write the following Python code. The output in the terminal should be the text “Hello world!”
+- Exercise 1:
+    - Create a new script.
+    - Create a dictionary with keys and values
+    - Loop over the dictionary and print every key-value pair in the terminal.
+
+- Exercise 2:
+    - Create a new script.
+    - Use user input to ask for their information (first name, last name, job title, company). Store the information in a dictionary.
+    - Write the information to a csv file (comma-separated values). The data should not be overwritten when you run the script multiple times.
+
 
 ### Sources
-[https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)
+[https://www.w3schools.com/python/python_dictionaries.asp](https://www.w3schools.com/python/python_dictionaries.asp)
+
+[https://www.w3schools.com/python/python_dictionaries_loop.asp](https://www.w3schools.com/python/python_dictionaries_loop.asp)
+
+[https://www.pythontutorial.net/python-basics/python-check-if-file-exists/](https://www.pythontutorial.net/python-basics/python-check-if-file-exists/)
+
+[https://docs.python.org/3/library/csv.html](https://docs.python.org/3/library/csv.html)
+
 
 ****
 
@@ -20,5 +33,5 @@ Python is meant to be an easily readable language. Its formatting is visually un
 
 
 ### Results
-![image](/00_includes/PRG_01_screenshot.png)
+![image](/00_includes/PRG_08_1_screenshot.png)
 

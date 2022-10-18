@@ -57,4 +57,4 @@ Lists are one of 4 built-in data types in Python used to store collections of da
 ![image](/00_includes/PRG_07_1_screenshot.png)
 
 - Exercise 2:
-![image](/00_includes/PRG_07_1_screenshot.png)
+![image](/00_includes/PRG_07_2_screenshot.png)
