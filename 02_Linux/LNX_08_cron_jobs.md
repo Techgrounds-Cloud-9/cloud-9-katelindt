@@ -32,6 +32,7 @@
 
 [https://opensource.com/article/18/7/how-check-free-disk-space-linux](https://opensource.com/article/18/7/how-check-free-disk-space-linux)
 
+[https://unix.stackexchange.com/questions/127732/system-crontab-or-root-crontabhttps://unix.stackexchange.com/questions/127732/system-crontab-or-root-crontab](https://unix.stackexchange.com/questions/127732/system-crontab-or-root-crontab)
 
 
 ****
@@ -54,7 +55,7 @@ Registered the script in my crontab so that it runs every minute.
 
 ![screenshot](/00_includes/linux_08_4_screenshot.png)
 
-Created a script that writes available disk space to a log file in ‘/var/logs’. Used a cron job so that it runs weekly.
+Created a script that writes available disk space to a log file in ‘/var/logs’. Used a cron job (changed in root's crontab) so that it runs weekly.
 
 ![screenshot](/00_includes/linux_08_5_screenshot.png)
 

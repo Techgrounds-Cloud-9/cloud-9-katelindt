@@ -33,6 +33,9 @@ Scripting is used to automate the execution of the tasks (without performing the
 
 [https://askubuntu.com/questions/551990/what-does-path-mean](https://askubuntu.com/questions/551990/what-does-path-mean)
 
+[https://stackoverflow.com/questions/1194882/how-to-generate-random-number-in-bash](https://stackoverflow.com/questions/1194882/how-to-generate-random-number-in-bash)
+
+[https://ubuntu.com/server/docs/web-servers-apache](https://ubuntu.com/server/docs/web-servers-apache)
 
 
 ****
