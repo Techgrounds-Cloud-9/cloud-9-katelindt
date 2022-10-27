@@ -72,7 +72,7 @@ Attached my new EBS volume to my EC2 instance:
 
 ![screenshot](/00_includes/AWS_07_4_screenshot.png)
 
-Connected to my EC2 instance using SSH,
+Connected to my EC2 instance using SSH, formatted and
 mounted the EBS volume on my instance and created a text file
 
 ![screenshot](/00_includes/AWS_07_5_screenshot.png)
