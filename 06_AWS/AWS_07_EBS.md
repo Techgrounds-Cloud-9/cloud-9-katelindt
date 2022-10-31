@@ -14,9 +14,12 @@ The io2 volume provides up to 500 IOPS per GiB – ten times for than io1's 50 I
 
 - gp3 - Amazon EBS gp3 volumes are the latest generation of general-purpose SSD-based EBS volumes that enable customers to provision performance independent of storage capacity
 
+- A snapshot - EBS Snapshots are a point-in-time copy of your data, and can be used to enable disaster recovery, migrate data across regions and accounts, and improve backup compliance. 
+
 - mkfs is a command used to format a block storage device with a specific file system.
 
 - mount command is used to mount the filesystem found on a device to big tree structure(Linux filesystem) rooted at '/'. Conversely, another command umount can be used to detach these devices from the Tree.
+
 
 ## Exercise
 
