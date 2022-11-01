@@ -5,7 +5,7 @@
 
 ## Exercise
 
-- Create a document with chosen editor (VS Code).
+
 
 
 ### Sources
