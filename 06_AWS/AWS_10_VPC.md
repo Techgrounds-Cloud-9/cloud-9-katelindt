@@ -70,6 +70,24 @@ Exercise 4
     - Subnet: Public subnet 2  
     - Auto-assign Public IP: Enable  
     - User data:   
+    #!/bin/bash
+
+    #Install Apache Web Server and PHP
+
+    yum install -y httpd mysql php
+
+    #Download Lab files
+
+    wget https://aws-tc-largeobjects.s3.amazonaws.com/CUR-TF-100-RESTRT-1/80-lab-vpc-web-server/lab-app.zip
+
+    unzip lab-app.zip -d /var/www/html/
+
+    #Turn on web server
+
+    chkconfig httpd on
+    
+    service httpd start
+
 - Tag:  
     - Key: Name  
     - Value: Web server  
