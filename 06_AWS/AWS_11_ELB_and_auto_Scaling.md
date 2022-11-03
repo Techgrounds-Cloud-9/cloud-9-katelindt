@@ -6,8 +6,6 @@ Elastic Load Balancing automatically distributes your incoming traffic across mu
 
 ## Key terminology
 
-Auto Scaling
-
 AWS’ ELB is a managed service that provides load balancing to a fleet of instances. 
 
 four types of ELBs:
@@ -15,6 +13,12 @@ four types of ELBs:
 - Network Load Balancer: this ELB works using TCP and UDP (layer 4 of the OSI stack).
 - Classic Load Balancer: this ELB is outdated and not recommended for use. AWS has (so far) never stopped supporting any services. The reason for this is that it can harm existing applications.
 - Gateway Load Balancer: this ELB acts as a gateway into your network, as well as a load balancer. It will first route traffic to a (3rd party) application that checks the traffic, like an IDS/IPS or Firewall. After the packet has been inspected, the GWLB acts like a NLB routing to your application. GWLB act on layers 3 and 4 of the OSI stack.
+
+- Auto Scaling Group contains a collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management. 
+
+- An Amazon Machine Image (AMI) is a supported and maintained image provided by AWS that provides the information required to launch an instance. 
+
+- Amazon CloudWatch collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance.
 
 
 ## Exercise

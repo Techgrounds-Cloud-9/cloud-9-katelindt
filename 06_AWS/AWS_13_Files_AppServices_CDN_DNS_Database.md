@@ -1,4 +1,5 @@
-# 
+# Files, AppServices, CDN, DNS, Database
+
 
 ## Key terminology
 
