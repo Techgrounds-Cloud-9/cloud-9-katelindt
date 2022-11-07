@@ -3,6 +3,14 @@
 
 ## Key terminology
 
+- Elastic Beanstalk
+- CloudFront
+- Route53
+- Amazon Elastic File System (Amazon EFS) is a simple, serverless, set-and-forget, elastic file system. There is no minimum fee or setup charge. You pay only for the storage you use, for read and write access to data stored in Infrequent Access storage classes, and for any provisioned throughput.
+
+- Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud.
+
+- Amazon Aurora is a modern relational database service offering performance and high availability at scale, fully open source MySQL and PostgreSQL-compatible editions, and a range of developer tools for building serverless and machine learning (ML)-driven applications.
 
 ## Exercise
 
@@ -34,6 +42,12 @@ Practice
 [https://www.freewebstack.com/cloudflare-vs-cloudfront-what-exactly-are-the-differences-between-them/](https://www.freewebstack.com/cloudflare-vs-cloudfront-what-exactly-are-the-differences-between-them/)
 
 [https://aws.amazon.com/route53/](https://aws.amazon.com/route53/)
+
+[https://aws.amazon.com/efs/](https://aws.amazon.com/efs/)
+
+[https://aws.amazon.com/rds/](https://aws.amazon.com/rds/)
+
+[https://aws.amazon.com/rds/aurora/](https://aws.amazon.com/rds/aurora/)
 ****
 
 ### Overcome challenges
@@ -79,4 +93,8 @@ Use cases:
 
 Exercise 2
 
+### EFS
+### RDS
+### Aurora
+###
 ![screenshot](/00_includes/AWS_13_1_screenshot.png)

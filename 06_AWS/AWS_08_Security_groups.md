@@ -26,3 +26,7 @@ Study
 - A Network Access Control List (NACL) is an optional layer of security for the VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules similar to your security groups in order to add an additional layer of security to your VPC.
 
 - NACL can be understood as the firewall or protection for the subnet. Security group can be understood as a firewall to protect EC2 instances.
+
+More about security groups in presentation :
+
+[https://docs.google.com/presentation/d/1omMu7X7H7U9l49kDpmmVW8kyE3Yp7lVnbTHORaWDYA0/edit#slide=id.p](https://docs.google.com/presentation/d/1omMu7X7H7U9l49kDpmmVW8kyE3Yp7lVnbTHORaWDYA0/edit#slide=id.p)

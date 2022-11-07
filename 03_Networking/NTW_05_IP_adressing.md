@@ -71,3 +71,9 @@ of my laptop:
 ![image](/00_includes/networking_05_2_screenshot.png)
 
 The modem connects the public Internet to my network.  Requests from my internal network are sent to the modem, which routes them to the Internet.  Thus, only one public IP address is needed for all of my devices to communicate with the Internet.
+
+Private IP adresses are not the same because each device connected to the router/modem has it's own private IP address within the network.
+
+I changed the private IP of my phone to the one of my laptop and I get an IP conflict. (At first I didn't recognize the error because the phone automatically connected to IPv6 and google page was working but I decided to try to open the site https://www.funda.nl/ and got an error: "Safari cannot open the page because the server cannot be found"). This means one of the two devices would not be able to communicate with the router.
+
+When I changed the IP address from my phone to an IP address outside of my network I received the same error.
