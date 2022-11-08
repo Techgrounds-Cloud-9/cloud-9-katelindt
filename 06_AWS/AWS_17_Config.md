@@ -14,7 +14,8 @@ AWS Config is a fully managed service that provides you with an AWS resource inv
 
 ## Exercise
 
-
+Study
+- AWS Config
 
 ### Sources
 
