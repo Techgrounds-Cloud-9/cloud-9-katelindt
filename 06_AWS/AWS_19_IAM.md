@@ -67,5 +67,21 @@ IAM features:
 - Free to use
 
 
+### Results
 
-   ![image](/00_includes/AWS_12.png)
+
+
+Created a new IAM user
+![screenshot](/00_includes/AWS_19_1_screenshot.png)
+
+![screenshot](/00_includes/AWS_19_2_screenshot.png)
+
+![screenshot](/00_includes/AWS_19_3_screenshot.png)
+
+Created access key, accessed AWS using CLI, checked list of users
+
+![screenshot](/00_includes/AWS_19_4_screenshot.png)
+
+Created IAM role, that allows EC2 instances to call AWS services on my behalf
+
+![screenshot](/00_includes/AWS_19_5_screenshot.png)

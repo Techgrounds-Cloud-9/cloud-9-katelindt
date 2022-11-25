@@ -15,6 +15,11 @@ Amazon CloudWatch is a monitoring service for AWS cloud resources and the applic
 
 - Amazon CloudWatch Synthetics allows to monitor application endpoints more easily.
 
+An alarm has three possible states: 
+- OK – The metric is within the defined threshold. 
+- ALARM – The metric is outside the defined threshold.
+- INSUFFICIENT_DATA – The alarm has just started, the metric is not available, or not enough data is available for the metric to determine the alarm state.
+
 ## Exercise
 
 
