@@ -1,5 +1,6 @@
 from constructs import Construct
 from aws_cdk.aws_events import Schedule
+from requests import get
 from aws_cdk import (
     Duration,
     RemovalPolicy,
@@ -15,7 +16,9 @@ from aws_cdk import (
     aws_events as event,
 
 )
-admin_IP = "89.205.143.211/32"
+# first run the following command: "pip install requests" or use simple admin_IP
+admin_IP = get("https://api.ipify.org").text + "/32"
+# admin_IP = "31.187.199.151/32"
 
 
 class TechgroundsProjectStack(Stack):
@@ -313,6 +316,30 @@ class TechgroundsProjectStack(Stack):
             description="Allow all HTTPS traffic from anywhere",
         )
 
+
+# KMS Module
+
+        admin_KMS_key = kms.Key(
+            self, "Admin Server Key",
+            enable_key_rotation=True,
+            pending_window=Duration.days(7),
+            alias="admin_KMS_key",
+            removal_policy=RemovalPolicy.DESTROY)
+
+        web_KMS_key = kms.Key(
+            self, "Web Server Key",
+            enable_key_rotation=True,
+            pending_window=Duration.days(7),
+            alias="web_KMS_key",
+            removal_policy=RemovalPolicy.DESTROY)
+
+        resources_KMS_key = kms.Key(
+            self, "Resources Key",
+            enable_key_rotation=True,
+            pending_window=Duration.days(7),
+            alias="resources_KMS_key",
+            removal_policy=RemovalPolicy.DESTROY)
+
 # S3 User Bucket
 
         Bucket = S3.Bucket(
@@ -384,6 +411,7 @@ class TechgroundsProjectStack(Stack):
                     volume=ec2.BlockDeviceVolume.ebs(
                         volume_size=8,
                         encrypted=True,
+                        kms_key=web_KMS_key,
                         delete_on_termination=True,)
                 )
             ],
@@ -408,8 +436,46 @@ class TechgroundsProjectStack(Stack):
                     volume=ec2.BlockDeviceVolume.ebs(
                         volume_size=8,
                         encrypted=True,
+                        kms_key=admin_KMS_key,
                         delete_on_termination=True,)
                 )
             ]
         )
         Bucket.grant_read(web_server)
+
+        # Backup
+        backup_vault = backup.BackupVault(
+            self, "BackupVault",
+            backup_vault_name="BackupVault",
+        )
+
+        # Backup Plan
+        backup_plan = backup.BackupPlan(
+            self, "BackupPlan",
+            backup_vault=backup_vault
+        )
+
+        backup_vault.apply_removal_policy(RemovalPolicy.DESTROY)
+        backup_plan.apply_removal_policy(RemovalPolicy.DESTROY)
+
+        # Backup Resources
+        backup_plan.add_selection(
+            "BackupSelection",
+            resources=[
+                backup.BackupResource.from_ec2_instance(web_server),
+                backup.BackupResource.from_ec2_instance(admin_server),],
+            allow_restores=True,
+        )
+
+        # Add backup rules
+        backup_plan.add_rule(backup.BackupPlanRule(
+            enable_continuous_backup=True,
+            delete_after=Duration.days(7),
+            schedule_expression=event.Schedule.cron(
+                day="*",
+                hour="0",
+                minute="0",
+                month="*",
+                year="*",)
+        )
+        )
