@@ -69,7 +69,7 @@ class TechgroundsProjectStack(Stack):
         )
 # route table for webserver
 
-        for subnet in vpc_web.public_subnets:
+        for subnet in vpc_web.private_subnets:
             print(subnet.node.id)
             ec2.CfnRoute(
                 self,
@@ -353,6 +353,12 @@ class TechgroundsProjectStack(Stack):
             connection=ec2.Port.tcp(80),
             description="Allow HTTP from ALB",
         )
+
+        instance_sg.connections.allow_from(
+            ec2.Peer.ipv4("10.20.20.0/24"),
+            ec2.Port.tcp(22)
+        )
+
 
 # created adminserver Security Group
 
@@ -651,7 +657,6 @@ class TechgroundsProjectStack(Stack):
         # backup_plan.add_selection(
         #     "BackupSelection",
         #     resources=[
-        #         backup.BackupResource.from_ec2_instance(web_server),
         #         backup.BackupResource.from_ec2_instance(admin_server),],
         #     allow_restores=True,
         # )
